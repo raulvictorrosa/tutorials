@@ -21,7 +21,8 @@ Caso não esteja visualizando corretamente,<span class="hljs-tag">&lt;<span clas
 
 <p>Para que nossa mensagem chegue corretamente em sua caixa de entrada, adicione nosso email na sua lista de contatos <a href="#" class="whitelist">seguindo nossas instruções</a>.</p>
 
-<pre class="prettyprint"><code class=" hljs xml">Para que nossa mensagem chegue corretamente em sua caixa de entrada, adicione nosso email na sua lista de contatos <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"whitelist"</span>&gt;</span>seguindo nossas instruções<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>.</code></pre>
+<pre class="prettyprint"><code class=" hljs xml">Para que nossa mensagem chegue corretamente em sua caixa de entrada, 
+adicione nosso email na sua lista de contatos <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"whitelist"</span>&gt;</span>seguindo nossas instruções<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>.</code></pre>
 
 <p>Para deixar de receber a nossa campanha, <a href="#" class="unsubscribe">clique aqui</a>.</p>
 
