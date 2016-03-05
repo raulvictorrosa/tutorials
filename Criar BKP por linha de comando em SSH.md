@@ -14,6 +14,9 @@ $ tar -cvf nomedoarquivo.tar nomedoarquivooroginal
 # Move o arquivo
 $ mv nomedoarquivo.tar pastadestino
 
+# Descompacta o arquivo
+$ tar -xf nomedoarquivo.tar -C pastadestino
+
 # Remove o arquivo desejado
 $ rm -rf nomedoarquivo.tar
 ```
