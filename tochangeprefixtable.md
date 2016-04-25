@@ -1,3 +1,7 @@
+To rename prefix from Wordpress database.
+=========================================
+
+```
 RENAME table `wp_commentmeta` TO `casarara_xthor_commentmeta`;
 RENAME table `wp_comments` TO `casarara_xthor_comments`;
 RENAME table `wp_links` TO `casarara_xthor_links`;
@@ -31,8 +35,12 @@ RENAME table `wp_wfScanners` TO `casarara_xthor_wfScanners`;
 RENAME table `wp_wfStatus` TO `casarara_xthor_wfStatus`;
 RENAME table `wp_wfThrottleLog` TO `casarara_xthor_wfThrottleLog`;
 RENAME table `wp_wfVulnScanners` TO `casarara_xthor_wfVulnScanners`;
+```
 
 
-``This will return a lot of results, and you need to go one by one to change these lines.
+This will return a lot of results, and you need to go one by one to change these lines.
+------------------------------------------------------------------------
 
+```
 SELECT * FROM `casarara_xthor_options` WHERE `option_name` LIKE '%wp_%'
+```
