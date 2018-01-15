@@ -5,6 +5,9 @@ Chave SSH e conectar servidor via SSH
 # visualiza sua chave
 $ cat ~/.ssh/id_rsa.pub
 
+# copia chave ssh para o clipboard
+$ cat ~/.ssh/id_rsa.pub | xclip -sel clip
+
 # gera a chave
 $ ssh-keygen -t rsa -C "account@domain"
 
