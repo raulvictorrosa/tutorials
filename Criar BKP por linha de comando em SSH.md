@@ -9,7 +9,7 @@ $ ls
 $ cd nomepasta
 
 # Cria o .tar para backup
-$ tar -czvf nomedoarquivo-$(date '+%Y%m%d-%H%M%S').tar nomedoarquivooroginal
+$ tar -czvf nomedoarquivo-$(date '+%Y%m%d-%H%M%S').tar.gz nomedoarquivooroginal
 
 # Move o arquivo
 $ mv nomedoarquivo.tar pastadestino
