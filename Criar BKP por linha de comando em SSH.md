@@ -9,13 +9,13 @@ $ ls
 $ cd nomepasta
 
 # Cria o .tar para backup
-$ tar -cvf nomedoarquivo.tar nomedoarquivooroginal
+$ tar -czvf nomedoarquivo-$(date '+%Y%m%d-%H%M%S').tar nomedoarquivooroginal
 
 # Move o arquivo
 $ mv nomedoarquivo.tar pastadestino
 
 # Descompacta o arquivo
-$ tar -xf nomedoarquivo.tar -C pastadestino
+$ tar -xzvf nomedoarquivo.tar -C pastadestino
 
 # Remove o arquivo desejado
 $ rm -rf nomedoarquivo.tar
