@@ -12,7 +12,7 @@ $ cat ~/.ssh/id_rsa.pub | xclip -sel clip
 $ ssh-keygen -t rsa -C "account@domain"
 
 # copia sua chave para as autorizadas no servidor
-$ scp ~/.ssh/id_rsa.pub username@server:~/.ssh/authorized_keys
+$ ssh-copy-id -i ~/.ssh/mykey user@host
 
 # conecta ao servidor.
 $ ssh username@server
